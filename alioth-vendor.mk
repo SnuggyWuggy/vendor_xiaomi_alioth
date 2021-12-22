@@ -120,4 +120,5 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.dynamicdds-V1.0-java \
     vendor.qti.hardware.data.latency-V1.0-java \
     vendor.qti.hardware.data.qmi-V1.0-java \
+    privapp-permissions-google-se-lineage \
     qti_telephony_system_packages_config
