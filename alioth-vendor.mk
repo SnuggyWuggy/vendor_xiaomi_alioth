@@ -137,6 +137,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     xdivert \
+    HotwordEnrollmentOKGoogleCS35L41 \
+    HotwordEnrollmentXGoogleCS35L41 \
     QtiTelephonyService \
     atfwd \
     datastatusnotification \
@@ -151,6 +153,7 @@ PRODUCT_PACKAGES += \
     uimgbamanagerlibrary \
     uimremotesimlocklibrary \
     uimservicelibrary \
+    com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \
     com.qualcomm.qti.imscmservice-V2.0-java \
     com.qualcomm.qti.imscmservice-V2.1-java \
@@ -183,5 +186,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.callinfo-V1.0-java \
     vendor.qti.ims.factory-V1.0-java \
     vendor.qti.ims.rcsconfig-V1.0-java \
+    com.android.hotwordenrollment.common.util \
     privapp-permissions-google-se-lineage \
     qti_telephony_system_packages_config
