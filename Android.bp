@@ -17,9 +17,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentOKGoogleCS35L41",
+	name: "HotwordEnrollmentOKGoogleHEXAGON",
 	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleCS35L41/HotwordEnrollmentOKGoogleCS35L41.apk",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -29,9 +29,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentXGoogleCS35L41",
+	name: "HotwordEnrollmentXGoogleHEXAGON",
 	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleCS35L41/HotwordEnrollmentXGoogleCS35L41.apk",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -175,13 +175,6 @@ dex_import {
 	owner: "xiaomi",
 	jars: ["proprietary/product/framework/uimservicelibrary.jar"],
 	product_specific: true,
-}
-
-dex_import {
-	name: "com.android.hotwordenrollment.common.util",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
-	system_ext_specific: true,
 }
 
 dex_import {
@@ -332,6 +325,13 @@ dex_import {
 }
 
 dex_import {
+	name: "vendor.qti.data.factory-V2.2-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "vendor.qti.hardware.data.cne.internal.api-V1.0-java",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar"],
@@ -388,6 +388,20 @@ dex_import {
 }
 
 dex_import {
+	name: "vendor.qti.hardware.mwqemadapter-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.mwqemadapter-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.slmadapter-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.slmadapter-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "vendor.qti.ims.callinfo-V1.0-java",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar"],
@@ -402,18 +416,16 @@ dex_import {
 }
 
 dex_import {
-	name: "vendor.qti.ims.rcsconfig-V1.0-java",
+	name: "vendor.qti.ims.factory-V1.1-java",
 	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar"],
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar"],
 	system_ext_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "com.android.hotwordenrollment.common.util",
+dex_import {
+	name: "vendor.qti.ims.rcsconfig-V1.0-java",
 	owner: "xiaomi",
-	src: "proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml",
-	filename_from_src: true,
-	sub_dir: "permissions",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar"],
 	system_ext_specific: true,
 }
 
