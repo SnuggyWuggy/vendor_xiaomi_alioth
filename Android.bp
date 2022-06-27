@@ -269,13 +269,6 @@ dex_import {
 }
 
 dex_import {
-	name: "google-ril",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/google-ril.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "qcrilhook",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
